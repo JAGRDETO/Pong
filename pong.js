@@ -6,6 +6,7 @@ $(function(){
   var y  = 0;
   var dx = 1;
   var dy = 1;
+  var paddleSize = 160;
 
   game = document.getElementById('game');
 
@@ -32,11 +33,12 @@ $(function(){
       dy =- dy;
       dy = dy*1.1;
       dx = dx*1.1;
+      paddleSize -= 2;
     };
     context.clearRect(0, 0, 960, 700);
     drawPaddle(mouse);
     context.beginPath();
-    context.fillStyle = "#ffffff";
+    context.fillStyle = "rgb(255,255,255)";
     context.arc(x, y, 8, 0, Math.PI*2, true);
     context.fill();
     x += dx;
@@ -45,8 +47,8 @@ $(function(){
 
   function drawPaddle(x) {
     console.log(x);
-    context.fillRect(x - 80, 600, 160, 10);
-    context.fillStyle = "white";
+    context.fillRect(x - (paddleSize/2), 600, paddleSize, 10);
+    context.fillStyle = "rgb(255,255,255)";
   };
 
   $('canvas').mousemove(function(e) {
