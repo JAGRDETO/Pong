@@ -2,6 +2,7 @@ Pong
 ====
 
 experimenting with HTML5 Canvas
+<img src="brickbreak.png">
 
 <h1>HTML5 Canvas</h1>
 <h2>Canvas Diagram</h2>
