@@ -27,4 +27,4 @@ experimenting with HTML5 Canvas
 
 
 <h3>6. What is your opinion on the technology after having built something with it?</h3>
-<p> </p>
+<p>Canvas is a useful tool for simple HTML5 graphics.</p>
