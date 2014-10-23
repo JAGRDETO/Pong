@@ -6,7 +6,7 @@ experimenting with HTML5 Canvas
 <h1>HTML5 Canvas</h1>
 <h2>Canvas Diagram</h2>
 
-<img src="/Users/michaelhall1/Desktop/canvasdia.png">
+<img src="canvasdia.png">
 
 
 <h3>1. What problem does it solve?</h3>
