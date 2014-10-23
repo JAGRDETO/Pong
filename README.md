@@ -28,4 +28,4 @@ experimenting with HTML5 Canvas
 
 
 <h3>6. What is your opinion on the technology after having built something with it?</h3>
-<p>Canvas is a useful tool for simple HTML5 graphics.</p>
+<p>Canvas is a useful tool for simple HTML5 graphics. It provides an interesting conceptual challenge in that this use of canvas mixes a low level proceadural model with object oriented concepts in JavaScript.</p>
