@@ -2,6 +2,7 @@ Pong
 ====
 
 experimenting with HTML5 Canvas
+<img src="brickbreak.png">
 
 <h1>HTML5 Canvas</h1>
 <h2>Canvas Diagram</h2>
@@ -26,4 +27,5 @@ experimenting with HTML5 Canvas
 <p>Canvas was introduced by Apple in 2004. It was used inside their Mac OS X WebKit   component to power dashboard applications and their Safari web browser. It was created as an html alternative to SVG which uses XML</p>
 
 
-<h3>8. What is your opinion on the technology after having built something with it?</h3>
+<h3>6. What is your opinion on the technology after having built something with it?</h3>
+<p>Canvas is a useful tool for simple HTML5 graphics. It provides an interesting conceptual challenge in that this use of canvas mixes a low level proceadural model with object oriented concepts in JavaScript.</p>
